@@ -25,6 +25,11 @@ target/
 *.iml
 *.ipr
 
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Compiled class file
+*.class
 ### JRebel ###
 rebel.xml
 
